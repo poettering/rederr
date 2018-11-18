@@ -1,12 +1,12 @@
 #/bin/sh
 
-echo stdin >&1
+echo stdout >&1
 echo stderr >&2
 
-echo -n stdin >&1
+echo -n stdout >&1
 echo -n stderr >&2
-echo -n stdin >&1
+echo -n stdout >&1
 echo stderr >&2
 
-echo stdin >&1
+echo stdout >&1
 echo stderr >&2
